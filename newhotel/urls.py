@@ -19,6 +19,7 @@ from django.urls import path, include
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 
+
 urlpatterns = [
     path('', include('restaurant.urls')),  # Add empty string pattern here
     path('admin/', admin.site.urls),
